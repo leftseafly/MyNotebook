@@ -1,1 +1,5 @@
-支持汉字么？
+NFC R/W Mode，NXP chip,tag detect situation:
+under level will check NDEF and notify a NFA_NDEF_DETECT_EVT to jni level contained NDEF attributes (NDEF total memory size, current
+size, etc.)
+fail case code location:
+vendor/nxp/opensource/packages/apps/Nfc/nci/jni/extns/pn54x/src/phNxpExtns.c “Error Sending msg to Extension Thread“
